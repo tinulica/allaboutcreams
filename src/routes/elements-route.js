@@ -16,7 +16,7 @@ import BlogPosts from '../components/pages/elements/blog-posts';
 import Portfolios from '../components/pages/elements/portfolios';
 import CTA from '../components/pages/elements/cta';
 import IconBoxes from '../components/pages/elements/icon-boxes';
-
+import ElementList from '../components/pages/elements/element-list';
 
 export default function ElementsRoute() {
     return (
