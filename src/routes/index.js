@@ -20,12 +20,12 @@ export default function AppRoot() {
     return (
         <React.Suspense fallback={ <LoadingOverlay /> }>
             <Switch>
-                {/* <Route path={ `${process.env.PUBLIC_URL}/elements` } component={ ElementPages } />
+                <Route path={ `${process.env.PUBLIC_URL}/elements` } component={ ElementPages } />
                 <Route path={ `${process.env.PUBLIC_URL}/product` } component={ ProductPages } />
                 <Route path={ `${process.env.PUBLIC_URL}/shop` } component={ ShopPages } />
                 <Route path={ `${process.env.PUBLIC_URL}/blog` } component={ BlogPages } />
                 <Route path={ `${process.env.PUBLIC_URL}/pages` } component={ OtherPages } />
-                <Route path={ `${process.env.PUBLIC_URL}/` } component={ HomePage } /> */}
+                <Route path={ `${process.env.PUBLIC_URL}/` } component={ HomePage } />
             </Switch>
         </React.Suspense> 
     )
